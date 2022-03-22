@@ -1,6 +1,7 @@
 # English - Staff Reservation
   Allows specified players like staff can join the server while the server is full. In the meantime, the displayed `maxplayers` excludes the reservation slots.
   The plugin is recommended for official servers whose max players is limited.
+  Disclaimer: This plugin does not violate VSR (yep I checked it).
   
   ```yaml
   staff_reservation:
@@ -21,6 +22,7 @@
   # Simplified Chinese - 管理预留位
   在服务器满人时，允许将像管理人员或指定的玩家进入服务器。同时，显示的`最大玩家数`将不会包含预留位数。
   本插件推荐使用于有最大人数限制的官方服务器。
+  免责声明：本插件不会违反VSR（没戳我检查过了）
   
   ```yaml
   staff_reservation:
