@@ -78,6 +78,9 @@ namespace StaffReservation
         {
             if (singleton.Config.UserIdList.Contains(userid))
                 return true;
+            Player player = Player.Get(userid);
+            if (player != null && singleton.Config.GroupsList.Contains(player.GroupName))
+                return true;
             if (ServerStatic.SharedGroupsMembersConfig.GetStringDictionary("SharedMembers").TryGetValue(userid, out string group))
             {
                 if (singleton.Config.GroupsList.Contains(group))
