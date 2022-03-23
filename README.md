@@ -45,5 +45,5 @@
       - 某个人的ID@steam
   ```
   
-    - Gameplay配置s:
-    - `max_players` : 设置为普通位 + 预留位（例：普通 25, 预留 2, `max_players` 设为 27）
+   - Gameplay配置:
+   - `max_players` : 设置为普通位 + 预留位（例：普通 25, 预留 2, `max_players` 设为 27）
