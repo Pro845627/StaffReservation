@@ -63,7 +63,7 @@ namespace StaffReservation
             if (Reservations < max && HasReservation(ev.UserId)) //预留空位，有预留
                 return; 
             //预留无空位或无预留
-            int normal = Player.List.Count() - (Reservations >= max ? max : Reservations);
+            int normal = LiteNetLib4MirrorCore.Host.ConnectedPeersCount - (Reservations >= max ? max : Reservations);
             int normal_max = CustomNetworkManager.slots - max;
             if (normal >= normal_max) //正常位满，无预留
             {
