@@ -20,6 +20,8 @@
     userid_list:
       - SomeOnesUserId@steam
   ```
+  - Gameplay Configs:
+    - `max_players` : Set it to normal slots + reservation slots（eg. normal 25, reservation 2, `max_players` set to 27）
   
   # Simplified Chinese - 管理预留位
   在服务器满人时，允许将像管理人员或指定的玩家进入服务器。同时，显示的`最大玩家数`将不会包含预留位数。
@@ -42,3 +44,6 @@
     userid_list:
       - 某个人的ID@steam
   ```
+  
+   - Gameplay配置:
+   - `max_players` : 设置为普通位 + 预留位（例：普通 25, 预留 2, `max_players` 设为 27）
